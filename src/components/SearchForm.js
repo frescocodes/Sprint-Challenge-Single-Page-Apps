@@ -7,6 +7,8 @@ export default function SearchForm() {
   const handleChange = (event) => {
     setFilter(event.target.value)
     console.log(filter)
+
+    
   }
 
   return (

@@ -37,3 +37,14 @@ main {
 header h1 {
   text-align: center;
 }
+
+#character-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: limegreen;
+  margin: 20px 20px;
+  width: 30%;
+}
